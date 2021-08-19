@@ -36,6 +36,17 @@ class ItemBusinessServiceTest {
 		business.saveItem(item);
 		assertEquals("Item2", item.getName());
 	}
+	
+//	@Test
+//	void testNullName() {
+//		Item item = new Item(3,null, 20, 20);
+//		try {
+//			item.getName();
+//		} catch (Exception e) {
+//			assertNotNull(e);
+//			
+//		}
+//	}
 
 	@Test
 	void testRetrieveAllItems() {
